@@ -13,7 +13,9 @@ public class MainModule {
 
     @Provides
     @Singleton
-    UserService userService() { return new UserService(provideHeater());}
+    UserService userService(UserRepository userRepository) {
+        return new UserService(userRepository);
+    }
 
     @Provides
     @Singleton

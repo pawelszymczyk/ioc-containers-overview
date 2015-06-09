@@ -2,4 +2,6 @@ digraph G1 {
   concentrate = true;
   n2 [label="members/org.pawelszymczyk.UserService"];
   n2 -> UserRepository;
+  n3 [label="org.pawelszymczyk.UserService"];
+  n3 -> UserRepository;
 }
