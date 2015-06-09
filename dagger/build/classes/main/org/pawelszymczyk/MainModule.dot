@@ -1,0 +1,5 @@
+digraph G1 {
+  concentrate = true;
+  n2 [label="members/org.pawelszymczyk.UserService"];
+  n2 -> UserRepository;
+}
